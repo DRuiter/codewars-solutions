@@ -8,7 +8,9 @@ Kata, we’ll familiarize ourselves with some of the “basic moves” of the JS bitwi
 
 Exercise 2: SHIFT-iness
 
-One of the tricky things about (x).toString(2) (where x is an integer, which reports the number back in binary) is that it doesn't really tell us the "whole story" about how JS is handling the bits for any given number. You learn this very quickly when you apply the "~" bitwise operator to an integer.
+One of the tricky things about (x).toString(2) (where x is an integer, which reports the number back in binary)
+is that it doesn't really tell us the "whole story" about how JS is handling the bits for any given number.
+You learn this very quickly when you apply the "~" bitwise operator to an integer.
 For Example:
 
 console.log((5).toString(2));
